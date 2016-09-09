@@ -49,7 +49,7 @@ body {
 	overflow-x: auto;
 }
 
-.header a {
+.header .nav-item a {
 	position: relative;
 	display: inline-block;
 	color: #888;
@@ -58,4 +58,28 @@ body {
 	line-height: normal;
 	min-height: 50px;
 	padding: 15px;
+}
+
+.header .container {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.header .maintitle {
+	margin: 0;
+	font-size: 80px;
+	font-weight: 100;
+	line-height: normal;
+	color: #444;
+	text-transform: uppercase;
+}
+
+.header .maintitle a {
+	color: #444;
+	text-decoration: none;
+}
+
+.header .subtitle {
+	margin: 0;
 }
