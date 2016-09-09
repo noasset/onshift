@@ -74,8 +74,7 @@ div:after,
 }
 
 .header .container {
-	padding-top: 30px;
-	padding-bottom: 50px;
+	padding: 30px 15px 60px 15px;
 	text-align: center;
 }
 
