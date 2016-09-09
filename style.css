@@ -32,3 +32,30 @@ body {
 	line-height: 18px;
 	letter-spacing: .3px
 }
+
+.header .navbar {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	white-space: nowrap;
+	border-bottom: 1px solid #eee;
+	-webkit-box-shadow: 0 0 1px #eee;
+	-moz-box-shadow: 0 0 1px #eee;
+	box-shadow: 0 0 1px #eee;
+}
+
+.header .nav-item {
+	position: relative;
+	overflow-x: auto;
+}
+
+.header a {
+	position: relative;
+	display: inline-block;
+	color: #888;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: normal;
+	min-height: 50px;
+	padding: 15px;
+}
