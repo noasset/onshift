@@ -33,6 +33,19 @@ body {
 	letter-spacing: .3px
 }
 
+div:before,
+div:after,
+.clear:before,
+.clear:after {
+	display: table;
+	content: " ";
+}
+
+div:after,
+.clear:after {
+	clear: both;
+}
+
 .header .navbar {
 	position: relative;
 	width: 100%;
