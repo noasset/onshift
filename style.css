@@ -289,7 +289,7 @@ optgroup {
 	padding: 15px;
 }
 .header .container {
-	padding: 30px 15px 60px 15px;
+	padding: 30px 15px;
 	text-align: center;
 }
 .header .maintitle {
@@ -320,24 +320,20 @@ optgroup {
 }
 .post {
 	padding: 15px;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 .post .post-image {
 	position: relative;
 	display: flex;
-	margin: -50px -40px 35px;
+	margin: -15px -15px 35px;
 	justify-content: center;
 	flex-direction: column;
 }
-.post .post-title {
-	font-size: 36px;
-	margin-bottom: 30px;
-}
-.post-title a {
+.post .h1 a {
 	color: #444;
 }
 .post .post-meta {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 .post .post-meta * {
 	font-style: normal;
