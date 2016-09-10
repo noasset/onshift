@@ -314,40 +314,6 @@ optgroup {
 	position: relative;
 	min-height: 1px;
 }
-@media (min-width:640px) {
-	.content {
-		padding-right: 15px;
-		padding-left: 15px;
-	}
-}
-@media (min-width:768px) {
-	.content {
-		width: 750px;
-	}
-}
-@media (min-width:992px) {
-	.content {
-		width: 970px;
-	}
-	.content .widget {
-		float: left;
-		padding-right: 15px;
-		padding-left: 15px;
-	}
-	.content .widget.Blog {
-		margin-left: -15px;
-		width: 70%;
-	}
-	.content .widget.PopularPosts {
-		margin-right: -15px;
-		width: 30%;
-	}
-}
-@media (min-width:1200px) {
-	.content {
-		width: 1200px;
-	}
-}
 .post, .sidebar-widget {
 	margin-bottom: 35px;
 	border: 1px solid #ddd;
@@ -422,4 +388,38 @@ optgroup {
 }
 .footer p {
 	margin: 0;
+}
+@media (min-width:640px) {
+	.content {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+@media (min-width:768px) {
+	.content {
+		width: 750px;
+	}
+}
+@media (min-width:992px) {
+	.content {
+		width: 970px;
+	}
+	.content .widget {
+		float: left;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.content .widget.Blog {
+		margin-left: -15px;
+		width: 70%;
+	}
+	.content .widget.PopularPosts {
+		margin-right: -15px;
+		width: 30%;
+	}
+}
+@media (min-width:1200px) {
+	.content {
+		width: 1200px;
+	}
 }
