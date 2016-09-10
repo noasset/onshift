@@ -197,13 +197,13 @@ div:after,
 .post .post-image {
 	position: relative;
 	display: flex;
-	margin: -50px -40px 0;
+	margin: -50px -40px 35px;
 	justify-content: center;
 	flex-direction: column;
 }
 
 .post .post-title {
-	margin: 35px 0 15px;
+	margin: 0 0 15px;
 	font-size: 35px;
 	font-family: "Droid Serif", Georgia, serif;
 	font-weight: 700;
@@ -232,7 +232,7 @@ div:after,
 	zoom: 1;
 }
 
-.post .post-meta .ig-clock {
+.post .post-meta .ig-time {
 	background-position: -6px -5px;
 	width: 14px;
 	margin-top: -4px;
