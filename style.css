@@ -263,6 +263,8 @@ fieldset {
   padding: 5px 10px 12px;
 }
 textarea {
+  width: 100%;
+  resize: vertical;
   overflow: auto;
 }
 optgroup {
