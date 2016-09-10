@@ -4,7 +4,6 @@
   font: inherit;
   line-height: inherit;
   vertical-align: baseline;
-  text-decoration: none;
   border: 0;
   outline: 0;
   margin: 0;
@@ -63,6 +62,7 @@ audio:not([controls]) {
 a {
   color: #4285f4;
   background-color: transparent;
+  text-decoration: none;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
@@ -83,7 +83,7 @@ abbr[title], abbr[data-original-title] {
 b, strong {
   font-weight: bold;
 }
-i, em, dfn {
+var, cite, i, em, dfn {
   font-style: italic;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
